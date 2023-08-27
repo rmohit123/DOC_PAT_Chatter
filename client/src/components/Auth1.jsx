@@ -26,7 +26,7 @@ const Auth1 = () => {
             } catch (error) {
                 console.log(error);
             }
-    window.location.reload();
+  
     }
 
    
