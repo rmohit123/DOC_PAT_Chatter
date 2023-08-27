@@ -23,7 +23,7 @@ return(
 const ChannelMemList =  () => {
   const {channel} = useChannelStateContext();
   const [mem ,setMem] = useState([]);
- // const [img ,setImg] = useState([]);
+  const [img ,setImg] = useState([]);
   let name =[];
  // let imag = [];
   useEffect(  () =>{

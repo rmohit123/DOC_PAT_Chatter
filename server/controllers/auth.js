@@ -31,8 +31,8 @@ const signup = async (req, res) => {
                                   { relation :  { $eq: "Doctor" } },
                                 ],
                      });
-                     console.log(response);
-                     if(doctor_id !== ""  && !response.users.length) return res.status(400).json({ message: 'not an valid doctor id' });
+                  //   console.log(response);
+                     if(doctor_id !== ""  && !response.users.length) return res.status(400).json({ message: 'Not an valid doctor id' });
                      const fulllName = fullName;
                              res.status(200).json({ token, fulllName, username, userId, hashedPassword, phoneNumber, doctor_id1 });
                    }

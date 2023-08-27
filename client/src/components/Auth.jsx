@@ -62,7 +62,7 @@ const Auth = () => {
           //  else{
                 const { username, password, phoneNumber, avatarURL , fullName  ,doctor_id } = form;
 
-        const URL = 'http://localhost:5000/auth';
+        const URL = 'https://doc-pat-chat-backendd.onrender.com/auth';
         //console.log(form);
     
     // const { data: { token, userId, hashedPassword, fulllName } } =    await axios.post('http://localhost:5000/auth/signup', {
